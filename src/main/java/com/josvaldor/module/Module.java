@@ -192,10 +192,6 @@ public class Module
         logger.debug(this + ".countDownLatchCountDown() (this.countDownLatch.getCount() = " + this.countDownLatch.getCount() + ")");
       }
     }
-    else if (logger.isDebugEnabled())
-    {
-      logger.warn("countDownLatchCountDown() (this.countDownLatch == null)");
-    }
   }
   
   public boolean getStart()
