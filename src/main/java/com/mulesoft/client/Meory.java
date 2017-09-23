@@ -1,4 +1,4 @@
-package com.mulesoft.monitor;
+package com.mulesoft.client;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryMXBean;

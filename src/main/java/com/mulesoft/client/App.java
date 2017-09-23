@@ -1,4 +1,4 @@
-package com.mulesoft.monitor;
+package com.mulesoft.client;
 
 /**
  * Hello world!
