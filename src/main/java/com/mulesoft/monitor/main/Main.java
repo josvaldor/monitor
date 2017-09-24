@@ -3,13 +3,14 @@
  * Author Joaquin Rodriguez
  * Copyright (c) MuleSoft, Inc.  All rights reserved.  http://www.mulesoft.com
  */
-package com.mulesoft.main;
+package com.mulesoft.monitor.main;
 
 import java.lang.management.ManagementFactory;
 import javax.management.MBeanServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import com.mulesoft.influxdb.Client;
+
+import com.mulesoft.monitor.influxdb.Client;
 
 @SpringBootApplication
 public class Main {

@@ -3,7 +3,7 @@
  * Author Joaquin Rodriguez
  * Copyright (c) MuleSoft, Inc.  All rights reserved.  http://www.mulesoft.com
  */
-package com.mulesoft.main;
+package com.mulesoft.monitor.main;
 
 
 import java.lang.management.ManagementFactory;
