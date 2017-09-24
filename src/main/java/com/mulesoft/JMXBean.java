@@ -1,4 +1,9 @@
-package com.mulesoft.main;
+/* JMXBean.java
+ * Date 201709
+ * Author Joaquin Rodriguez
+ * Copyright (c) MuleSoft, Inc.  All rights reserved.  http://www.mulesoft.com
+ */
+package com.mulesoft;
 
 public class JMXBean {
 	 private final String beanQuery;

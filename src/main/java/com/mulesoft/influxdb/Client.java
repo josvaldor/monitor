@@ -1,4 +1,9 @@
-package com.mulesoft.client;
+/* Client.java
+ * Date 201709
+ * Author Joaquin Rodriguez
+ * Copyright (c) MuleSoft, Inc.  All rights reserved.  http://www.mulesoft.com
+ */
+package com.mulesoft.influxdb;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryMXBean;
@@ -21,6 +26,7 @@ import org.influxdb.dto.Point;
 
 import com.josvaldor.module.Module;
 import com.josvaldor.module.mbean.statemachine.StateMachine;
+import com.mulesoft.SupportedJMXBean;
 
 public class Client extends StateMachine {
 

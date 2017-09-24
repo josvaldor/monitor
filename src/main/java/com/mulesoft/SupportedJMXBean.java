@@ -1,4 +1,4 @@
-package com.mulesoft.client;
+package com.mulesoft;
 
 
 /**

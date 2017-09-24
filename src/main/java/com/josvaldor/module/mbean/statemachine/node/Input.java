@@ -1,3 +1,9 @@
+
+/* 
+ * Date 2014-2017
+ * Author Joaquin Rodriguez
+ * Copyright (c) Joaquin Osvaldo Rodriguez  All rights reserved.
+ */
 package com.josvaldor.module.mbean.statemachine.node;
 
 import com.josvaldor.module.Module;

@@ -1,3 +1,8 @@
+/* Controller.java
+ * Date 201709
+ * Author Joaquin Rodriguez
+ * Copyright (c) MuleSoft, Inc.  All rights reserved.  http://www.mulesoft.com
+ */
 package com.mulesoft.main;
 
 
@@ -19,7 +24,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mulesoft.client.SupportedJMXBean;
+import com.mulesoft.JMXBean;
+import com.mulesoft.SupportedJMXBean;
 
 @RestController
 public class Controller {

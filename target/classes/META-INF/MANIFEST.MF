@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Implementation-Title: Monitor
-Implementation-Version: 0.1.201709-SNAPSHOT
+Implementation-Version: 0.2.201709-SNAPSHOT
 Built-By: jorodriguez
 Implementation-Vendor-Id: com.mulesoft
 Build-Jdk: 1.8.0_131
