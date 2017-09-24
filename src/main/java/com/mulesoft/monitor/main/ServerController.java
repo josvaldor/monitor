@@ -20,6 +20,7 @@ import javax.management.MalformedObjectNameException;
 import javax.management.ObjectName;
 import javax.management.ReflectionException;
 
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -27,8 +28,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mulesoft.JMXBean;
 import com.mulesoft.SupportedJMXBean;
 
+@EnableAutoConfiguration
 @RestController
-public class Controller {
+public class ServerController {
     private MBeanServer mBeanServer = ManagementFactory.getPlatformMBeanServer();
     
     @RequestMapping("/object")
