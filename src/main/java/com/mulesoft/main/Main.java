@@ -1,11 +1,13 @@
 package com.mulesoft.main;
 
-import com.josvaldor.module.Module;
 import com.mulesoft.client.Client;
-
 import java.lang.management.ManagementFactory;
 import javax.management.MBeanServer;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class Main
 {
   private static MBeanServer mBeanServer;
@@ -13,8 +15,10 @@ public class Main
   
   public static void main(String[] arguments)
   {
-    mBeanServer = ManagementFactory.getPlatformMBeanServer();
-    module = new Client(mBeanServer);
-    module.start();
+	    mBeanServer = ManagementFactory.getPlatformMBeanServer();
+	    module = new Client(mBeanServer);
+	    module.start();
+	    SpringApplication.run(Main.class, arguments);
+	    
   }
 }
